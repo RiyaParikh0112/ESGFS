@@ -53,19 +53,19 @@ public class Main {
         int i = obj.nextInt();
 
         if (i == 1) {
-            System.out.print("Enter Acievement name - ");
+            System.out.print("Enter Achievement name - ");
             String name = obj.nextLine();
 
-            System.out.print("Enter Acievement date - ");
+            System.out.print("Enter Achievement date - ");
             String date = obj.nextLine();
 
-            System.out.print("Enter Acievement type - ");
+            System.out.print("Enter Achievement type - ");
             String type = obj.nextLine();
 
             student.addAchievement(name, date, type);
         }
         if (i == 2) {
-            System.out.print("Enter Acievement name - ");
+            System.out.print("Enter Achievement name - ");
             String name = obj.nextLine();
 
             student.removeAchievement(name);
