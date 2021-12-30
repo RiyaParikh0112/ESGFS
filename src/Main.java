@@ -71,16 +71,16 @@ public class Main {
             student.removeAchievement(name);
         }
         if (i == 3) {
-            System.out.print("Enter Acievement name - ");
+            System.out.print("Enter Achievement name - ");
             String name = obj.nextLine();
 
-            System.out.print("Enter Acievement date - ");
+            System.out.print("Enter Achievement date - ");
             String date = obj.nextLine();
 
-            System.out.print("Enter Acievement type - ");
+            System.out.print("Enter Achievement type - ");
             String type = obj.nextLine();
 
-            System.out.print("Enter Acievement worth - ");
+            System.out.print("Enter Achievement worth - ");
             String worth = obj.nextLine();
 
             student.modifyAchievement(name, date, type, worth);
